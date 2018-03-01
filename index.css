@@ -1,0 +1,57 @@
+@font-face {
+  src: url("MyriadPro-Regular.otf");
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Myriad Pro', sans-serif;
+}
+
+.container {
+  max-width: 1612px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.font-bold,
+.font-light,
+.font-regular {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* remove default arrow */
+  background-image: url("../images/arrow_down.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: 90% 55% !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  background-color: #fff;
+  max-width: 1612px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}

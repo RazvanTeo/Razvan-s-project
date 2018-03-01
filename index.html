@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="dist/index.css">
+  <link rel="stylesheet" href="dist/header.css">
+  <link rel="stylesheet" href="dist/navigation.css">
+  <link rel="stylesheet" href="dist/carousel.css">
+  <link rel="stylesheet" href="dist/reset.css">
+  <link rel="stylesheet" href="dist/our-projects.css">
+  <link rel="stylesheet" href="dist/projects.css">
+  <link rel="stylesheet" href="dist/accordion.css">
+  <link rel="stylesheet" href="dist/got-questions.css">
+  <link rel="stylesheet" href="dist/footer.css">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="header__menu-button">
+    <i class="fa fa-bars fa-3x" style="color: #111212"></i>
+  </div>
+  <div class="header__left-side">
+    <img src="images/logo.png" alt="logo">
+    <span class="font-bold">HTML 5</span>
+  </div>
+  <div class="header__right-side">
+    <div>
+      <span>JOIN US</span>
+      <a href="#">REGISTER</a>
+    </div>
+    <div>
+      <span>LEARN MORE</span>
+      <a href="#">ABOUT US</a>
+    </div>
+    <div>
+      <span>GET IN TOUCH</span>
+      <a href="#">CONTACT US</a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <nav class="navigation">
+    <div class="navigation__list">
+      <div class="navigation__list__item">
+        <a href="#">
+          <i class="fa fa-home"></i>
+        </a>
+      </div>
+      <div class="navigation__list__item">
+        <a href="#">
+          <span>HTML</span>
+        </a>
+      </div>
+      <div class="navigation__list__item">
+        <a href="#">
+          <span>CSS</span>
+        </a>
+      </div>
+      <div class="navigation__list__item">
+        <a href="#">
+          <span>JAVASCRIPT</span>
+        </a>
+      </div>
+      <div class="navigation__list__item">
+        <a href="#">
+          <span>SQL</span>
+        </a>
+      </div>
+      <div class="navigation__list__item">
+        <a href="#">
+          <span>PHP</span>
+        </a>
+      </div>
+      <div class="navigation__list__item">
+        <a href="#">
+          <span>BOOTSTRAP</span>
+        </a>
+      </div>
+      <div class="navigation__list__item">
+        <a href="#">
+          <span>JQUERY</span>
+        </a>
+      </div>
+      <div class="navigation__list__item">
+        <a href="#">
+          <span>ANGULAR</span>
+        </a>
+      </div>
+      <div class="navigation__list__item">
+        <a href="#">
+          <span>XML</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="carousel">
+    <div class="carousel-viewport">
+      <ul>
+        <li>
+          <div class="sized-container">
+            <img src="images/img_1.png" alt="">
+          </div>
+        </li>
+        <li>
+          <div class="sized-container">
+            <img src="images/img_1.png" alt="">
+          </div>
+        </li>
+        <li>
+          <div class="sized-container">
+            <img src="images/img_1.png" alt="">
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="carousel-pagination">
+      <ul></ul>
+    </div>
+    <div class="carousel-previous">
+      <i class="fa fa-angle-left fa-3x"></i>
+    </div>
+    <div class="carousel-next">
+      <i class="fa fa-angle-right fa-3x"></i>
+    </div>
+    <div class="carousel-info">
+      <div class="content">
+        <span class="title">CREATIVE DESIGN</span>
+        <span class="description">
+          Pellentesque egestas ornare sagittis.
+          Sed augue lorem, dignissim eget bibendum vitae, scelerisque eget justo.
+          Duis tincidunt erat quam.
+        </span>
+        <button>LEARN MORE &gt;</button>
+      </div>
+    </div>
+  </div>
+  <div class="our-projects">
+    <span>OUR PROJECT</span>
+    <div class="sort-by__container">
+      <span>SORT BY</span>
+      <select name="" id="">
+        <option value="Newest Entries">Newest Entries</option>
+      </select>
+    </div>
+  </div>
+  <div class="projects">
+    <div class="parent">
+      <div class="child thumb-one">
+        <a href="#">PROJECT NAME</a>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child thumb-three">
+        <a href="#">PROJECT NAME</a>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child thumb-two">
+        <a href="#">PROJECT NAME</a>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child thumb-one">
+        <a href="#">PROJECT NAME</a>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child thumb-three">
+        <a href="#">PROJECT NAME</a>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="child thumb-two">
+        <a href="#">PROJECT NAME</a>
+      </div>
+    </div>
+  </div>
+  <div class="got-questions">
+    <div class="title">GOT QUESTIONS?</div>
+    <div class="accordion">
+      <div class="accordion__item">
+        <div class="accordion__item__header">
+          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+          <i class="fa fa-angle-up fa-2x"></i>
+        </div>
+        <div class="accordion__item__content">
+          <div class="img-container">
+            <img src="images/accordion_thumb.png" alt="">
+          </div>
+          <div class="texts-container">
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor justo eros, id consequat justo lobortis non. Aenean vel turpis lacus. Proin a hendrerit mauris, sed hendrerit risus. Donec ullamcorper tortor et accumsan interdum. Maecenas vitae lacus laoreet, lacinia eros ac, viverra enim. Sed porta aliquam dolor, quis faucibus turpis ultricies sit amet. Sed porttitor quam at nibh ullamcorper, nec venenatis mi luctus. Integer ultrices nisl id lacus bibendum, in tempus dui mollis. Morbi tempor mauris a sem feugiat varius. Curabitur iaculis, odio vel sollicitudin efficitur, sapien purus fermentum ex, ac congue ligula magna vel tortor. Integer a est non quam luctus convallis. Curabitur vitae metus metus.
+            </span>
+            <span class="small-text">
+              Aliquam vitae orci at neque tempus varius eleifend a lorem. Ut vestibulum viverra tristique. Etiam imperdiet ultricies diam at dignissim
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <div class="accordion__item__header">
+          <span>Vivamus iaculis mollis nibh</span>
+          <i class="fa fa-angle-up fa-2x"></i>
+        </div>
+        <div class="accordion__item__content">
+          <div class="img-container">
+            <img src="images/accordion_thumb.png" alt="">
+          </div>
+          <div class="texts-container">
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor justo eros, id consequat justo lobortis non. Aenean vel turpis lacus. Proin a hendrerit mauris, sed hendrerit risus. Donec ullamcorper tortor et accumsan interdum. Maecenas vitae lacus laoreet, lacinia eros ac, viverra enim. Sed porta aliquam dolor, quis faucibus turpis ultricies sit amet. Sed porttitor quam at nibh ullamcorper, nec venenatis mi luctus. Integer ultrices nisl id lacus bibendum, in tempus dui mollis. Morbi tempor mauris a sem feugiat varius. Curabitur iaculis, odio vel sollicitudin efficitur, sapien purus fermentum ex, ac congue ligula magna vel tortor. Integer a est non quam luctus convallis. Curabitur vitae metus metus.
+            </span>
+            <span class="small-text">
+              Aliquam vitae orci at neque tempus varius eleifend a lorem. Ut vestibulum viverra tristique. Etiam imperdiet ultricies diam at dignissim
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="accordion__item">
+        <div class="accordion__item__header">
+          <span>Aliquam fermentum justo at lorem ultrices</span>
+          <i class="fa fa-angle-up fa-2x"></i>
+        </div>
+        <div class="accordion__item__content">
+          <div class="img-container">
+            <img src="images/accordion_thumb.png" alt="">
+          </div>
+          <div class="texts-container">
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor justo eros, id consequat justo lobortis non. Aenean vel turpis lacus. Proin a hendrerit mauris, sed hendrerit risus. Donec ullamcorper tortor et accumsan interdum. Maecenas vitae lacus laoreet, lacinia eros ac, viverra enim. Sed porta aliquam dolor, quis faucibus turpis ultricies sit amet. Sed porttitor quam at nibh ullamcorper, nec venenatis mi luctus. Integer ultrices nisl id lacus bibendum, in tempus dui mollis. Morbi tempor mauris a sem feugiat varius. Curabitur iaculis, odio vel sollicitudin efficitur, sapien purus fermentum ex, ac congue ligula magna vel tortor. Integer a est non quam luctus convallis. Curabitur vitae metus metus.
+            </span>
+            <span class="small-text">
+              Aliquam vitae orci at neque tempus varius eleifend a lorem. Ut vestibulum viverra tristique. Etiam imperdiet ultricies diam at dignissim
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="lists-container">
+      <div>
+        Good Job
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa fa-link"></i>
+              <span>Five lists</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-link"></i>
+              <span>Full of links</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-link"></i>
+              <span>More than one color</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        Looks Great
+        <ul>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>These bullets...</span></a></li>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>Makes it a little bit difficult</span></a></li>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>But we have fate!</span></a></li>
+        </ul>
+      </div>
+      <div>
+        Keep It Like This
+        <ul>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>Unordered List ?</span></a></li>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>Is the way to go ?</span></a></li>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>It's your choice!</span></a></li>
+        </ul>
+      </div>
+      <div>
+        Nice Progress
+        <ul>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>Seems like you got it</span></a></li>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>Easy, huh ?</span></a></li>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>Eh, easy for you...</span></a></li>
+        </ul>
+      </div>
+      <div>
+        You're Almost Done
+        <ul>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>Just 2 items more</span></a></li>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>And now its the time</span></a></li>
+          <li><a href="#"><i class="fa fa-link"></i>
+            <span>To review your work :)</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="logo-container">
+      <span>Opacity is easy these days, isn't it?</span>
+      <img src="images/footer_logo.png" alt="">
+      <span>Thanks for your effort!</span>
+    </div>
+    <div class="opacity-background">
+      <img src="images/opacity_background.png" alt="">
+    </div>
+  </div>
+</div>
+<script src="scripts/accordion.js"></script>
+<script src="scripts/carousel.js"></script>
+<script src="scripts/index.js"></script>
+</body>
+</html>

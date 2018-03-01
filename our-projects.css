@@ -1,0 +1,50 @@
+.our-projects {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.our-projects span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #7084a9;
+  letter-spacing: 0;
+  line-height: 40px;
+  display: block;
+  margin-bottom: 35px;
+}
+
+.sort-by__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.sort-by__container span {
+  font-size: 18px;
+  color: #111212;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+
+.sort-by__container select {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #838888;
+  letter-spacing: 0;
+  line-height: 40px;
+  /* Rounded Rectangle 1: */
+  background: #eff0f2;
+  width: 253px;
+  height: 54px;
+  border: 0;
+  padding-left: 20px;
+}

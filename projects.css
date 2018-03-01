@@ -1,0 +1,70 @@
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.parent {
+  margin: 20px;
+  height: 300px;
+  width: 410px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.thumb-one {
+  background-image: url(../images/thumb_1.png);
+}
+
+.thumb-two {
+  background-image: url(../images/thumb_2.png);
+}
+
+.thumb-three {
+  background-image: url(../images/thumb_3.png);
+}
+
+.projects a {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  cursor: pointer;
+  /* Project Name: */
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.parent:hover .child, .parent:focus .child {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+  display: block;
+}
